@@ -1,14 +1,3 @@
-$(document).ready(function () {
-	$('.slider').slick({
-		slidesToScroll: 1,
-		autoplay: true,
-		autoplaySpeed: 1500,
-	});
-	$('.fa-heart').click((e) => {
-
-	})
-});
-
 const prevArrow = document.querySelector('.arrow-prev');
 const nextArrow = document.querySelector('.arrow-next');
 const catItems = document.querySelectorAll('.cat-item');
